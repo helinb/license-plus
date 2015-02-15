@@ -1,6 +1,8 @@
 ##License Plus
 ###This was forked from the original atom-license package for atom.
 
+[![Join the chat at https://gitter.im/JustSomeDood/license-plus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JustSomeDood/license-plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 I decided to fork the [atom-licence][17f3d1a1] package and include some new and updated licenses since I noticed the github page for the original had not been updated in about a year.  That and I often work with projects that use licenses that weren't available so I decided to add them.
 
 If you want to read the original projects README it's README-ORIG
