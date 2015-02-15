@@ -1,0 +1,33 @@
+{
+  "name": "license-plus",
+  "main": "./lib/license-plus",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Quickly add various OSS licenses to your software using the command palette.",
+  "activationEvents": [
+    "license:Android-Project",
+    "license:Apache-2․0",
+    "license:Artistic-2․0",
+    "license:BSD",
+    "license:CC0-1․0",
+    "license:CC-BY-4․0",
+    "license:CC-BY-ND-4․0",
+    "license:CC-BY-SA-4․0",
+    "license:CC-BY-NC-4․0",
+    "license:CC-BY-NC-ND-4․0",
+    "license:CC-BY-NC-SA-4․0",
+    "license:MIT",
+    "license:GPL-v2",
+    "license:GPL-v3",
+    "license:LGPL-v2․1",
+    "license:LGPL-v3",
+    "license:Mozilla",
+    "license:The-Unlicense"
+  ],
+  "repository": "https://github.com/justSomeWeb/license-plus",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
