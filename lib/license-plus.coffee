@@ -11,6 +11,8 @@ module.exports =
     atom.workspaceView.command "license:CC-BY-NC-4․0", => @ccbync40()
     atom.workspaceView.command "license:CC-BY-NC-ND-4․0", => @ccbyncnd40()
     atom.workspaceView.command "license:CC-BY-NC-SA-4․0", => @ccbyncsa40()
+    atom.workspaceView.command "license:CDDL-1․0", => @cddl10()
+    atom.workspaceView.command "license:Eclipse-1․0", => @eclipse10()
     atom.workspaceView.command "license:MIT", => @mit()
     atom.workspaceView.command "license:GPL-v2", => @gplv2()
     atom.workspaceView.command "license:GPL-v3", => @gplv3()
@@ -54,6 +56,12 @@ module.exports =
 
   ccbyncsa40: ->
     @addLicense("ccbyncsa40")
+
+  cddl10: ->
+    @addLicense("cddl10")
+
+  eclipse10: ->
+    @addLicense("eclipse10")
 
   mit: ->
     @addLicense("mit")
