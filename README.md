@@ -26,7 +26,7 @@ and type license and choose the one you need.
 
 
 
-  [d46bcaeb]: https://github.com/justSomeWeb/license-plus.git "Clone Meh"
+  [d46bcaeb]: https://github.com/JustSomeDood/license-plus.git "Clone Meh"
   [17f3d1a1]: https://atom.io/packages/atom-license "link to original package"
   [263fbea3]: http://choosealicense.com/ "choosealicence"
   [d31a0d20]: https://atom.io/packages/license-plus "license-plus"
