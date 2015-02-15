@@ -32,28 +32,28 @@ module.exports =
     @addLicense("bsd2")
 
   cc010: ->
-    @addLicense("cc0-10")
+    @addLicense("cc010")
 
   ccby40: ->
-    @addLicense("cc-by-40")
+    @addLicense("ccby40")
 
   ccbynd40: ->
-    @addLicense("cc-by-nd-40")
+    @addLicense("ccbynd40")
 
   ccbysa40: ->
-    @addLicense("cc-by-sa-40")
+    @addLicense("ccbysa40")
 
   ccbync40: ->
-    @addLicense("cc-by-nc-40")
+    @addLicense("ccbync40")
 
   ccbyncnd40: ->
-    @addLicense("cc-by-nc-nd-40")
+    @addLicense("ccbyncnd40")
 
   ccbyncsa40: ->
-    @addLicense("cc-by-nc-sa-40")
+    @addLicense("ccbyncsa40")
 
-  ccbync-sa-40: ->
-    @addLicense("cc-by-nc-sa-40")
+  ccbyncsa40: ->
+    @addLicense("ccbyncsa40")
 
   mit: ->
     @addLicense("mit")
