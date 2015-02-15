@@ -24,9 +24,17 @@ or to install via command line
 Simply open up the command palette `ctrl-shift-p` on linux & win32 or `cmd-shift-p` on mac
 and type license and choose the one you need.
 
+###Changelog
+## 1.2.0 - First Release
+- Added a typical Android Projects license ~ [Apache 2.0 Application][a04b8bc9] ~ [Android Source][6d44bc87] Website
+- Added Creative Commons Licenses ~ Learn more about [Creative Commons][9e11d1f6]
+- Fixed really stupid mistake, all is good now.
 
 
   [d46bcaeb]: https://github.com/JustSomeDood/license-plus.git "Clone Meh"
   [17f3d1a1]: https://atom.io/packages/atom-license "link to original package"
   [263fbea3]: http://choosealicense.com/ "choosealicence"
   [d31a0d20]: https://atom.io/packages/license-plus "license-plus"
+  [9e11d1f6]: https://creativecommons.org "creative commons"
+  [6d44bc87]: https://source.android.com/source/licenses.html "info on android licenses"
+  [a04b8bc9]: http://www.apache.org/licenses/LICENSE-2.0#apply "apache android"
