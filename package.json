@@ -24,7 +24,7 @@
     "license:Mozilla",
     "license:The-Unlicense"
   ],
-  "repository": "https://github.com/justSomeWeb/license-plus",
+  "repository": "https://github.com/JustSomeDood/license-plus",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

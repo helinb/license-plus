@@ -4,7 +4,7 @@
 I decided to fork the [atom-licence][17f3d1a1] package and include some new and updated licenses since I noticed the github page for the original had not been updated in about a year.  That and I often work with projects that use licenses that weren't available so I decided to add them.
 
 If you want to read the original projects README it's README-ORIG
-
+ 
 ---
 ###License Plus
 Quickly add various OSS licenses to your software using the command palette. Remember to fill in any years and names that are required by the license you choose.
