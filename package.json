@@ -1,7 +1,7 @@
 {
   "name": "license-plus",
   "main": "./lib/license-plus",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "description": "Quickly add various OSS licenses to your software using the command palette.",
   "activationEvents": [
