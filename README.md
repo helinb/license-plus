@@ -5,13 +5,16 @@
 
 I decided to fork the [atom-licence][17f3d1a1] package and include some new and updated licenses since I noticed the github page for the original had not been updated in about a year.  That and I often work with projects that use licenses that weren't available so I decided to add them.
 
-If you want to read the original projects README it's README-ORIG
+If you want to read the original projects README it's README-ORIG.
+
+I created a [github wiki page][9ff7871f] with some basic overviews of the licenses (thank you to tl;dr legal and creative commons)
 
 ---
 ###License Plus
 Quickly add various OSS licenses to your software using the command palette. Remember to fill in any years and names that are required by the license you choose.
 
 ### Choose a License
+
 Visit [choosealicence.com][263fbea3] to see which license will work best for you.
 
 ### Download
@@ -48,3 +51,4 @@ and type license and choose the one you need.
   [9e11d1f6]: https://creativecommons.org "creative commons"
   [6d44bc87]: https://source.android.com/source/licenses.html "info on android licenses"
   [a04b8bc9]: http://www.apache.org/licenses/LICENSE-2.0#apply "apache android"
+  [9ff7871f]: https://github.com/JustSomeDood/license-plus/wiki/Open-Source-licenses-in-plain-english "licenses in plain english"
