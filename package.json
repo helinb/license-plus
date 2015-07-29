@@ -4,7 +4,7 @@
   "version": "1.2.5",
   "private": false,
   "description": "Quickly add various OSS licenses to your software using the command palette.",
-  "activationEvents": [
+  "activationCommands": [
     "license:Android-Project",
     "license:Apache-2․0",
     "license:Artistic-2․0",
