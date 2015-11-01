@@ -1,25 +1,25 @@
 module.exports =
   activate: ->
-    atom.workspaceView.command "license:Android-Project", => @android()
-    atom.workspaceView.command "license:Apache-2․0", => @apache2()
-    atom.workspaceView.command "license:Artistic-2․0", => @artist2()
-    atom.workspaceView.command "license:BSD", => @bsd()
-    atom.workspaceView.command "license:CC0-1․0", => @cc010()
-    atom.workspaceView.command "license:CC-BY-4․0", => @ccby40()
-    atom.workspaceView.command "license:CC-BY-ND-4․0", => @ccbynd40()
-    atom.workspaceView.command "license:CC-BY-SA-4․0", => @ccbysa40()
-    atom.workspaceView.command "license:CC-BY-NC-4․0", => @ccbync40()
-    atom.workspaceView.command "license:CC-BY-NC-ND-4․0", => @ccbyncnd40()
-    atom.workspaceView.command "license:CC-BY-NC-SA-4․0", => @ccbyncsa40()
-    atom.workspaceView.command "license:CDDL-1․0", => @cddl10()
-    atom.workspaceView.command "license:Eclipse-1․0", => @eclipse10()
-    atom.workspaceView.command "license:MIT", => @mit()
-    atom.workspaceView.command "license:GPL-v2", => @gplv2()
-    atom.workspaceView.command "license:GPL-v3", => @gplv3()
-    atom.workspaceView.command "license:LGPL-v2․1", => @lgplv21()
-    atom.workspaceView.command "license:LGPL-v3", => @lgplv3()
-    atom.workspaceView.command "license:Mozilla", => @mozilla()
-    atom.workspaceView.command "license:The-Unlicense", => @unlicense()
+    atom.commands.add "atom-workspace", "license:Android-Project", => @android()
+    atom.commands.add "atom-workspace", "license:Apache-2․0", => @apache2()
+    atom.commands.add "atom-workspace", "license:Artistic-2․0", => @artist2()
+    atom.commands.add "atom-workspace", "license:BSD", => @bsd()
+    atom.commands.add "atom-workspace", "license:CC0-1․0", => @cc010()
+    atom.commands.add "atom-workspace", "license:CC-BY-4․0", => @ccby40()
+    atom.commands.add "atom-workspace", "license:CC-BY-ND-4․0", => @ccbynd40()
+    atom.commands.add "atom-workspace", "license:CC-BY-SA-4․0", => @ccbysa40()
+    atom.commands.add "atom-workspace", "license:CC-BY-NC-4․0", => @ccbync40()
+    atom.commands.add "atom-workspace", "license:CC-BY-NC-ND-4․0", => @ccbyncnd40()
+    atom.commands.add "atom-workspace", "license:CC-BY-NC-SA-4․0", => @ccbyncsa40()
+    atom.commands.add "atom-workspace", "license:CDDL-1․0", => @cddl10()
+    atom.commands.add "atom-workspace", "license:Eclipse-1․0", => @eclipse10()
+    atom.commands.add "atom-workspace", "license:MIT", => @mit()
+    atom.commands.add "atom-workspace", "license:GPL-v2", => @gplv2()
+    atom.commands.add "atom-workspace", "license:GPL-v3", => @gplv3()
+    atom.commands.add "atom-workspace", "license:LGPL-v2․1", => @lgplv21()
+    atom.commands.add "atom-workspace", "license:LGPL-v3", => @lgplv3()
+    atom.commands.add "atom-workspace", "license:Mozilla", => @mozilla()
+    atom.commands.add "atom-workspace", "license:The-Unlicense", => @unlicense()
 
   android: ->
     @addLicense("android")
@@ -86,7 +86,7 @@ module.exports =
 
 
   addLicense: (name)->
-    editor = atom.workspace.activePaneItem
+    editor = atom.workspace.getActiveTextEditor()
     @getLicenseText name, (err, license)->
       editor.insertText(license)
 
